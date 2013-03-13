@@ -1,0 +1,6 @@
+{
+  "name": "delayer",
+  "version": "0.0.1",
+  "description": "Mixin that allows objects to set timeouts and intervals",
+  "scripts": ["index.js"]
+}
