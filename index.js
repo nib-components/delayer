@@ -57,7 +57,7 @@ Delayer.prototype.setInterval = function(name, time, handler) {
   return handle;
 };
 
-Delayer.prototype.clearInterval: function(name) {
+Delayer.prototype.clearInterval = function(name) {
   if (!(this.intervals && this.intervals[name])) {
     return;
   }
